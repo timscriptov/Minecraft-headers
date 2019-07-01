@@ -4,10 +4,10 @@
 #pragma once
 
 #include "ItemEnchants.h"
+#include "BlockActor.h"
 
 class BlockLegacy;
 class Tick;
-class BlockActor;
 
 class ItemInstance
 {
