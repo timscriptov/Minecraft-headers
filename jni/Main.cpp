@@ -8,6 +8,7 @@
 #include "minecraft/ArmorItem.h"
 #include "minecraft/Recipe.h"
 #include "minecraft/MinecraftGame.h"
+#include "minecraft/ImGui.h"
 
 extern "C"
 {
