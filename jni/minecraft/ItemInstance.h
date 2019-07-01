@@ -3,8 +3,9 @@
  ***/
 #pragma once
 
+#include "ItemEnchants.h"
+
 class BlockLegacy;
-class ItemEnchants;
 class Tick;
 class BlockActor;
 
