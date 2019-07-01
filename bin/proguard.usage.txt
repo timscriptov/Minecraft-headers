@@ -1,0 +1,3 @@
+adrt.ADRTLogCatReader
+adrt.ADRTSender
+com.mcal.mcpelauncher.BuildConfig
