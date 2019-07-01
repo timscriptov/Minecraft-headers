@@ -2,6 +2,7 @@
 #include "Substrate.h"
 #include "mcpe.h"
 #include "minecraft/AppPlatform.h"
+#include "minecraft/AppPlatformListener.h"
 
 extern "C"
 {
