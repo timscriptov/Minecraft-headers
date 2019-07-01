@@ -3,9 +3,10 @@
  ***/
 #pragma once
 
+#include "Block.h"
+
 class BlockSource;
 class BlockPos;
-class Block;
 class BlockActor;
 class ActorBlockSyncMessage;
 
