@@ -13,6 +13,7 @@
 #include "Social.h"
 #include "ui.h"
 #include "BedrockEngine.h"
+#include "LevelSettings.h"
 
 class ActivationArguments;
 class IClientInstance;
@@ -28,7 +29,6 @@ class MultiplayerLockedContext;
 class TestAssetCommandType;
 class TestCommandType;
 class ContentIdentity;
-class LevelSettings;
 class StartIntent;
 class ActorUniqueID;
 class CodeBuilderObserver;

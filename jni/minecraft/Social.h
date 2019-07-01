@@ -47,4 +47,11 @@ public:
 public:
 	~MultiplayerGameInfo();
 };
+class GamePublishSetting
+{
+public:
+	//char filler_GamePublishSetting[UNKNOW_SIZE];
+public:
+	~GamePublishSetting();
+};
 }

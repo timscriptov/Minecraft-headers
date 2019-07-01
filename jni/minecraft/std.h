@@ -12,4 +12,11 @@ public:
 public:
 	~__va_list();
 };
+class vector
+{
+public:
+	//char filler_vector[UNKNOW_SIZE];
+public:
+	~vector();
+};
 }
