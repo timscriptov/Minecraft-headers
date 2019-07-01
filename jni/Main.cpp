@@ -3,6 +3,7 @@
 #include "mcpe.h"
 #include "minecraft/AppPlatform.h"
 #include "minecraft/AppPlatformListener.h"
+#include "minecraft/AppPlatform_android.h"
 
 extern "C"
 {
