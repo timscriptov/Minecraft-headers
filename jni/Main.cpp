@@ -6,6 +6,7 @@
 #include "minecraft/AppPlatform_android.h"
 #include "minecraft/BlockItem.h"
 #include "minecraft/ArmorItem.h"
+#include "minecraft/Recipe.h"
 
 extern "C"
 {
