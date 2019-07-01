@@ -7,6 +7,7 @@
 #include "minecraft/BlockItem.h"
 #include "minecraft/ArmorItem.h"
 #include "minecraft/Recipe.h"
+#include "minecraft/MinecraftGame.h"
 
 extern "C"
 {

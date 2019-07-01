@@ -12,4 +12,11 @@ public:
 public:
 	~CommonPlatform();
 };
+class AppIsland
+{
+	public:
+	//char filler_AppIsland[UNKNOW_SIZE];
+public:
+	~AppIsland();
+};
 }

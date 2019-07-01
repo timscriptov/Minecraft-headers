@@ -12,4 +12,11 @@ public:
 public:
 	~Image();
 };
+class UUID
+{
+public:
+	//char filler_UUID[UNKNOW_SIZE];
+public:
+	~UUID();
+};
 }
