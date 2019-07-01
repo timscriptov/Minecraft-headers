@@ -5,6 +5,7 @@
 #include "minecraft/AppPlatformListener.h"
 #include "minecraft/AppPlatform_android.h"
 #include "minecraft/BlockItem.h"
+#include "minecraft/ArmorItem.h"
 
 extern "C"
 {
