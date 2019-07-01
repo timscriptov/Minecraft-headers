@@ -4,6 +4,7 @@
 #pragma once
 
 #include "Util.h"
+#include "ItemInstance.h"
 
 class Recipe
 {

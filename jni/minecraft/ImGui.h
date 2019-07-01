@@ -3,8 +3,6 @@
  ***/
 #pragma once
 
-#include "std.h"
-
 class ImVec2;
 class ImGuiContext;
 class ImGuiWindow;
