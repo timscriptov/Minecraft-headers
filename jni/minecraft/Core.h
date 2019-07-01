@@ -19,4 +19,11 @@ public:
 public:
 	~FileAccessType();
 };
+class PathBuffer
+{
+public:
+	//char filler_PathBuffer[UNKNOW_SIZE];
+public:
+	~PathBuffer();
+};
 }

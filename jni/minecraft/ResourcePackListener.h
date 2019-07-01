@@ -3,7 +3,7 @@
  ***/
 #pragma once
 
-class ResourcePackManager;
+#include "ResourcePackManager.h"
 
 class ResourcePackListener
 {
