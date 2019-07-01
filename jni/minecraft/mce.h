@@ -19,4 +19,11 @@ public:
 public:
 	~UUID();
 };
+class TextureGroup
+{
+public:
+	//char filler_TextureGroup[UNKNOW_SIZE];
+public:
+	~TextureGroup();
+};
 }
