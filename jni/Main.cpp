@@ -12,6 +12,7 @@
 #include "minecraft/NpcRenderer.h"
 #include "minecraft/BlockGraphics.h"
 #include "minecraft/ClientInstance.h"
+#include "minecraft/Mob.h"
 
 extern "C"
 {
