@@ -17,6 +17,8 @@
 #include "minecraft/PlayerSkinPacket.h"
 #include "minecraft/VanillaClientGameplayEventListener.h"
 #include "minecraft/Player.h"
+#include "minecraft/PlayerRespawnRandomizerInfo.h"
+#include "minecraft/PlayerInventoryProxy.h"
 
 extern "C"
 {
