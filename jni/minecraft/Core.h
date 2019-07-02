@@ -26,4 +26,25 @@ public:
 public:
 	~PathBuffer();
 };
+class FilePathManager
+{
+public:
+	//char filler_FilePathManager[UNKNOW_SIZE];
+public:
+	~FilePathManager();
+};
+class FileStorageArea
+{
+public:
+	//char filler_FileStorageArea[UNKNOW_SIZE];
+public:
+	~FileStorageArea();
+};
+class LevelStorageState
+{
+public:
+	//char filler_LevelStorageState[UNKNOW_SIZE];
+public:
+	~LevelStorageState();
+};
 }

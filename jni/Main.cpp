@@ -11,6 +11,7 @@
 #include "minecraft/ImGui.h"
 #include "minecraft/NpcRenderer.h"
 #include "minecraft/BlockGraphics.h"
+#include "minecraft/ClientInstance.h"
 
 extern "C"
 {

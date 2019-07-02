@@ -12,4 +12,11 @@ public:
 public:
 	~GameEventNotification();
 };
+class SceneType
+{
+public:
+	//char filler_SceneType[UNKNOW_SIZE];
+public:
+	~SceneType();
+};
 }

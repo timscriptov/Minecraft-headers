@@ -26,4 +26,25 @@ public:
 public:
 	~TextureGroup();
 };
+class Texture
+{
+public:
+	//char filler_Texture[UNKNOW_SIZE];
+public:
+	~Texture();
+};
+class TexturePtr
+{
+public:
+	//char filler_TexturePtr[UNKNOW_SIZE];
+public:
+	~TexturePtr();
+};
+class ViewportInfo
+{
+public:
+	//char filler_ViewportInfo[UNKNOW_SIZE];
+public:
+	~ViewportInfo();
+};
 }

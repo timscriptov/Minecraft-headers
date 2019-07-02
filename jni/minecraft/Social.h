@@ -54,4 +54,11 @@ public:
 public:
 	~GamePublishSetting();
 };
+class IUserManager
+{
+public:
+	//char filler_IUserManager[UNKNOW_SIZE];
+public:
+	~IUserManager();
+};
 }
