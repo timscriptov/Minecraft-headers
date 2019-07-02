@@ -61,4 +61,11 @@ public:
 public:
 	~IUserManager();
 };
+class XboxLiveUser
+{
+public:
+	//char filler_XboxLiveUser[UNKNOW_SIZE];
+public:
+	~XboxLiveUser();
+};
 }

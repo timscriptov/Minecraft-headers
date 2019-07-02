@@ -13,6 +13,8 @@
 #include "minecraft/BlockGraphics.h"
 #include "minecraft/ClientInstance.h"
 #include "minecraft/Mob.h"
+#include "minecraft/RealmsAPI.h"
+#include "minecraft/PlayerSkinPacket.h"
 
 extern "C"
 {
