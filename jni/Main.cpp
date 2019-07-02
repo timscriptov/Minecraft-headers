@@ -15,6 +15,8 @@
 #include "minecraft/Mob.h"
 #include "minecraft/RealmsAPI.h"
 #include "minecraft/PlayerSkinPacket.h"
+#include "minecraft/VanillaClientGameplayEventListener.h"
+#include "minecraft/Player.h"
 
 extern "C"
 {
