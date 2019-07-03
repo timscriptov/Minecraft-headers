@@ -20,6 +20,7 @@
 #include "minecraft/PlayerRespawnRandomizerInfo.h"
 #include "minecraft/PlayerInventoryProxy.h"
 #include "minecraft/PlayerEventListener.h"
+#include "minecraft/BlockEventListener.h"
 
 extern "C"
 {
