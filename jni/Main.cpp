@@ -21,6 +21,7 @@
 #include "minecraft/PlayerInventoryProxy.h"
 #include "minecraft/PlayerEventListener.h"
 #include "minecraft/BlockEventListener.h"
+#include "minecraft/CameraManager.h"
 
 extern "C"
 {
