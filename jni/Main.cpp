@@ -26,6 +26,7 @@
 #include "minecraft/ClientPlayerEventCoordinator.h"
 #include "minecraft/GameMode.h"
 #include "minecraft/ItemStack.h"
+#include "minecraft/MinecraftScreenModel.h"
 
 extern "C"
 {

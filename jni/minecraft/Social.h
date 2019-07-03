@@ -68,4 +68,39 @@ public:
 public:
 	~XboxLiveUser();
 };
+class MultiIdentitySigninResult
+{
+public:
+	//char filler_MultiIdentitySigninResult[UNKNOW_SIZE];
+public:
+	~MultiIdentitySigninResult();
+};
+class UserPermissionCheckResult
+{
+public:
+	//char filler_UserPermissionCheckResult[UNKNOW_SIZE];
+public:
+	~UserPermissionCheckResult();
+};
+class XboxLiveUserProfileData
+{
+public:
+	//char filler_XboxLiveUserProfileData[UNKNOW_SIZE];
+public:
+	~XboxLiveUserProfileData();
+};
+class ReportReason
+{
+public:
+	//char filler_ReportReason[UNKNOW_SIZE];
+public:
+	~ReportReason();
+};
+class SignInResult
+{
+public:
+	//char filler_SignInResult[UNKNOW_SIZE];
+public:
+	~SignInResult();
+};
 }
