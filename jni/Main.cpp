@@ -38,6 +38,9 @@
 #include "minecraft/CommandOutputMessage.h"
 #include "minecraft/CommandOutput.h"
 #include "minecraft/ClientCommandOutputSender.h"
+#include "minecraft/BlockPos.h"
+#include "minecraft/BlockSource.h"
+#include "minecraft/Level.h"
 
 extern "C"
 {
