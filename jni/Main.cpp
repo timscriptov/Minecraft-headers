@@ -22,6 +22,7 @@
 #include "minecraft/PlayerEventListener.h"
 #include "minecraft/BlockEventListener.h"
 #include "minecraft/CameraManager.h"
+#include "minecraft/ClientInputHandler.h"
 
 extern "C"
 {
