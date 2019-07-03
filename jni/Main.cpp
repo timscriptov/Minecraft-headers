@@ -41,6 +41,10 @@
 #include "minecraft/BlockPos.h"
 #include "minecraft/BlockSource.h"
 #include "minecraft/Level.h"
+#include "minecraft/Monster.h"
+#include "minecraft/HumanoidMonster.h"
+#include "minecraft/Creeper.h"
+#include "minecraft/Zombie.h"
 
 extern "C"
 {
