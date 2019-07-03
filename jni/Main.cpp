@@ -24,6 +24,7 @@
 #include "minecraft/CameraManager.h"
 #include "minecraft/ClientInputHandler.h"
 #include "minecraft/ClientPlayerEventCoordinator.h"
+#include "minecraft/GameMode.h"
 
 extern "C"
 {
