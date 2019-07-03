@@ -25,6 +25,7 @@
 #include "minecraft/ClientInputHandler.h"
 #include "minecraft/ClientPlayerEventCoordinator.h"
 #include "minecraft/GameMode.h"
+#include "minecraft/ItemStack.h"
 
 extern "C"
 {
