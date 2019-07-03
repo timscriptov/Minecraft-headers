@@ -27,6 +27,17 @@
 #include "minecraft/GameMode.h"
 #include "minecraft/ItemStack.h"
 #include "minecraft/MinecraftScreenModel.h"
+#include "minecraft/I18n.h"
+#include "minecraft/Minecraft.h"
+#include "minecraft/ServerInstance.h"
+#include "minecraft/LevelStorage.h"
+#include "minecraft/Common.h"
+#include "minecraft/ExternalFileLevelStorageSource.h"
+#include "minecraft/AutomationClient.h"
+#include "minecraft/CommandOutputSender.h"
+#include "minecraft/CommandOutputMessage.h"
+#include "minecraft/CommandOutput.h"
+#include "minecraft/ClientCommandOutputSender.h"
 
 extern "C"
 {

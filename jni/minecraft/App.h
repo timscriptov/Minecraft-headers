@@ -6,7 +6,6 @@
 class AppContext;
 
 class App
-// : public non-virtual thunk to App
 {
 public:
 	//char filler_App[UNKNOW_SIZE];

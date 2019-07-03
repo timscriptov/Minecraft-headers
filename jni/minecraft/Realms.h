@@ -54,4 +54,11 @@ public:
 public:
 	~SubscriptionInfo();
 };
+class Content
+{
+public:
+	//char filler_Content[UNKNOW_SIZE];
+public:
+	~Content();
+};
 }
