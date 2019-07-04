@@ -3,14 +3,12 @@
  ***/
 #pragma once
 
+#include "WaterAnimal.h"
+
 class Actor;
 class Mob;
-class WaterAnimal;
 
-class Fish
- : public Mob
-// : public Actor
-// : public WaterAnimal
+class Fish : public Mob, public Actor, public WaterAnimal
 {
 public:
 	//char filler_Fish[UNKNOW_SIZE];

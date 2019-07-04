@@ -3,21 +3,17 @@
  ***/
 #pragma once
 
+#include "Monster.h"
+#include "HumanoidMonster.h"
+
 class Mob;
 class Actor;
-class Monster;
-class HumanoidMonster;
 
-class VindicationIllager
- : public Mob
-// : public Actor
-// : public Monster
-// : public HumanoidMonster
+class VindicationIllager : public Mob, public Actor, public Monster, public HumanoidMonster
 {
 public:
 	//char filler_VindicationIllager[UNKNOW_SIZE];
 public:
-	//Virtual Tables
 	virtual ~VindicationIllager();
 	virtual void getRidingHeight();
 	virtual void canExistInPeaceful() const;

@@ -3,12 +3,10 @@
  ***/
 #pragma once
 
-class Particle;
-class HeartParticle;
+#include "Particle.h"
+#include "HeartParticle.h"
 
-class AngryVillagerParticle
-// : public HeartParticle
-// : public Particle
+class AngryVillagerParticle : public HeartParticle, public Particle
 {
 public:
 	//char filler_AngryVillagerParticle[UNKNOW_SIZE];

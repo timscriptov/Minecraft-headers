@@ -4,13 +4,11 @@
 #pragma once
 
 #include "VillagerBase.h"
-#include "../Mob.h"
-#include "../Actor.h"
 
-class VillagerV2
- : public Mob
-// : public VillagerBase
-// : public Actor
+class Mob;
+class Actor;
+
+class VillagerV2 : public Mob, public VillagerBase, public Actor
 {
 public:
 	//char filler_VillagerV2[UNKNOW_SIZE];

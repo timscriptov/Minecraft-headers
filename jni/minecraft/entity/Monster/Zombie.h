@@ -3,18 +3,15 @@
  ***/
 #pragma once
 
-#include "Mob.h"
-#include "Actor.h"
 #include "Monster.h"
 #include "HumanoidMonster.h"
 
+class Mob;
+class Actor;
+
 class VariantParameterList;
 
-class Zombie
- : public Mob
-// : public Actor
-// : public Monster
-// : public HumanoidMonster
+class Zombie : public Mob, public Actor, public Monster, public HumanoidMonster
 {
 class ZombieType;
 public:

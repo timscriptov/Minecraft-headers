@@ -3,13 +3,11 @@
  ***/
 #pragma once
 
-#include "../Actor.h"
+#include "AbstractArrow.h"
 
-class AbstractArrow;
+class Actor;
 
-class ThrownTrident
- : public Actor
-// : public AbstractArrow
+class ThrownTrident : public Actor, public AbstractArrow
 {
 public:
 	//char filler_ThrownTrident[UNKNOW_SIZE];

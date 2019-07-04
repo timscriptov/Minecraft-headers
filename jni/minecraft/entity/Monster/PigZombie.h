@@ -3,18 +3,14 @@
  ***/
 #pragma once
 
-#include "Zombie.h"
-#include "Mob.h"
-#include "Actor.h"
 #include "Monster.h"
+#include "Zombie.h"
 #include "HumanoidMonster.h"
 
-class PigZombie
- : public Zombie
-// : public Mob
-// : public Actor
-// : public Monster
-// : public HumanoidMonster
+class Mob;
+class Actor;
+
+class PigZombie : public Zombie, public Mob, public Actor, public Monster, public HumanoidMonster
 {
 public:
 	//char filler_PigZombie[UNKNOW_SIZE];

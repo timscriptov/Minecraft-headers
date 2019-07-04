@@ -3,14 +3,12 @@
  ***/
 #pragma once
 
+#include "Monster.h"
+
 class Mob;
 class Actor;
-class Monster;
 
-class Vex
- : public Mob
-// : public Actor
-// : public Monster
+class Vex : public Mob, public Actor, public Monster
 {
 public:
 	//char filler_Vex[UNKNOW_SIZE];

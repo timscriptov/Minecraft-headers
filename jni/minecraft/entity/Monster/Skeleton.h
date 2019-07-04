@@ -4,17 +4,13 @@
 #pragma once
 
 #include "WitherBoss.h"
+#include "Monster.h"
+#include "HumanoidMonster.h"
 
 class Mob;
 class Actor;
-class Monster;
-class HumanoidMonster;
 
-class Skeleton
- : public Mob
-// : public Actor
-// : public Monster
-// : public HumanoidMonster
+class Skeleton : public Mob, public Actor, public Monster, public HumanoidMonster
 {
 class SkeletonType;
 public:

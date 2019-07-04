@@ -3,14 +3,12 @@
  ***/
 #pragma once
 
-#include "../AppPlatformListener.h"
+#include "Model.h"
 
-class Model;
+class AppPlatformListener;
 class GeometryPtr;
 
-class SkeletonHeadModel
- : public AppPlatformListener
-// : public Model
+class SkeletonHeadModel : public AppPlatformListener, public Model
 {
 public:
 	//char filler_SkeletonHeadModel[UNKNOW_SIZE];

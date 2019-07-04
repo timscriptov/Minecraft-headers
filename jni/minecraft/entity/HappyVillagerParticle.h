@@ -1,10 +1,13 @@
+/***
+ *	MCPE 1.13.0.1
+ ***/
 #pragma once
 
-class Particle;
+#include "Particle.h"
+
 class ParticleEngine;
 
-class HappyVillagerParticle
-// : public Particle
+class HappyVillagerParticle : public Particle
 {
 public:
 	//char filler_HappyVillagerParticle[UNKNOW_SIZE];

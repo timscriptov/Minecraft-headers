@@ -3,18 +3,16 @@
  ***/
 #pragma once
 
+#include "Monster.h"
+
 class Mob;
 class Actor;
-class Monster;
 class EndDragonFight;
 class Node;
 class PathCompletionType;
 class EnderCrystal;
 
-class EnderDragon
- : public Mob
-// : public Actor
-// : public Monster
+class EnderDragon : public Mob, public Actor, public Monster
 {
 public:
 	//char filler_EnderDragon[UNKNOW_SIZE];

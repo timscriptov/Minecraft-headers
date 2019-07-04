@@ -3,16 +3,13 @@
  ***/
 #pragma once
 
+#include "Monster.h"
+#include "HumanoidMonster.h"
+
 class Mob;
 class Actor;
-class Monster;
-class HumanoidMonster;
 
-class Witch
- : public Mob
-// : public Actor
-// : public Monster
-// : public HumanoidMonster
+class Witch : public Mob, public Actor, public Monster, public HumanoidMonster
 {
 public:
 	//char filler_Witch[UNKNOW_SIZE];

@@ -2,12 +2,11 @@
  *	MCPE 1.13.0.1
  ***/
 #pragma once
-#include "../Actor.h"
-#include "../Mob.h"
 
-class Bat
- : public Mob
-// : public Actor
+class Actor;
+class Mob;
+
+class Bat : public Mob, public Actor
 {
 public:
 	//char filler_Bat[UNKNOW_SIZE];

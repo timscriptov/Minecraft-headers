@@ -3,8 +3,6 @@
  ***/
 #pragma once
 
-#include "../Actor.h"
-
 class Minecart
 {
 public:

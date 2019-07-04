@@ -4,11 +4,9 @@
 #pragma once
 
 #include "Animal/Horse.h"
+#include "Goal.h"
 
-class Goal;
-
-class SkeletonHorseTrapGoal
-// : public Goal
+class SkeletonHorseTrapGoal : public Goal
 {
 public:
 	//char filler_SkeletonHorseTrapGoal[UNKNOW_SIZE];
