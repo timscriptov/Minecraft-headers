@@ -77,6 +77,21 @@
 #include "minecraft/entity/Animal/Sheep.h"
 #include "minecraft/entity/Animal/Turtle.h"
 #include "minecraft/entity/Animal/Wolf.h"
+#include "minecraft/entity/Monster/EnderDragon.h"
+#include "minecraft/entity/Monster/EnderMan.h"
+#include "minecraft/entity/Monster/Endermite.h"
+#include "minecraft/entity/Monster/EvocationIllager.h"
+#include "minecraft/entity/Monster/Guardian.h"
+#include "minecraft/entity/Monster/LavaSlime.h"
+#include "minecraft/entity/Monster/Phantom.h"
+#include "minecraft/entity/Monster/Pillager.h"
+#include "minecraft/entity/Monster/Skeleton.h"
+#include "minecraft/entity/Monster/Slime.h"
+#include "minecraft/entity/Monster/Vex.h"
+#include "minecraft/entity/Monster/VindicationIllager.h"
+#include "minecraft/entity/Monster/Witch.h"
+#include "minecraft/entity/Monster/WitherBoss.h"
+
 extern "C"
 {
     //Called when the native library is loaded successfully.
