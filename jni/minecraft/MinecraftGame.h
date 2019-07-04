@@ -33,14 +33,7 @@ class StartIntent;
 class ActorUniqueID;
 class CodeBuilderObserver;
 
-class MinecraftGame
- : public BedrockEngine::AppIsland
-// : public non-virtual thunk to MinecraftGame
-// : public App
-// : public AppPlatformListener
-// : public BlockSourceListener
-// : public LevelListener
-// : public ResourcePackListener
+class MinecraftGame : public BedrockEngine::AppIsland, public App, public AppPlatformListener, public BlockSourceListener, public LevelListener, public ResourcePackListener
 // : public Core::Observer<OptionsObserver, Core::SingleThreadedLock>
 {
 public:

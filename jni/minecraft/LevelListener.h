@@ -17,8 +17,7 @@ class ScreenshotOptions;
 class LevelSoundEvent;
 class ActorDefinitionIdentifier;
 
-class LevelListener
- : public BlockSourceListener
+class LevelListener : public BlockSourceListener
 {
 public:
 	//char filler_LevelListener[UNKNOW_SIZE];

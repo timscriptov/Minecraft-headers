@@ -16,8 +16,7 @@ class Player;
 class ActorDamageCause;
 class GoalDefinition;
 
-class Mob
- : public Actor
+class Mob : public Actor
 {
 public:
 	//char filler_Mob[UNKNOW_SIZE];

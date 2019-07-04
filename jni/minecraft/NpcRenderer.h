@@ -3,19 +3,16 @@
  ***/
 #pragma once
 
-class ActorShaderManager;
+#include "HumanoidMobRenderer.h"
+#include "ActorShaderManager.h"
+#include "ActorRenderer.h"
+
 class MobRenderer;
-class ActorRenderer;
-class HumanoidMobRenderer;
 class BaseActorRenderContext;
 class ActorRenderData;
 class ActorResourceDefinition;
 
-class NpcRenderer
-// : public HumanoidMobRenderer
-// : public ActorShaderManager
-// : public MobRenderer
-// : public ActorRenderer
+class NpcRenderer : public HumanoidMobRenderer, public ActorShaderManager, public MobRenderer, public ActorRenderer
 {
 public:
 	//char filler_NpcRenderer[UNKNOW_SIZE];

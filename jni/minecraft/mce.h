@@ -47,4 +47,11 @@ public:
 public:
 	~ViewportInfo();
 };
+class ClientResourcePointer
+{
+public:
+	//char filler_ClientResourcePointer[UNKNOW_SIZE];
+public:
+	~ClientResourcePointer();
+};
 }
