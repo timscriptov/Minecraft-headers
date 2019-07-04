@@ -45,6 +45,10 @@
 #include "minecraft/HumanoidMonster.h"
 #include "minecraft/Creeper.h"
 #include "minecraft/Zombie.h"
+#include "minecraft/CaveSpider.h"
+#include "minecraft/Animal.h"
+#include "minecraft/MushroomCow.h"
+#include "minecraft/PigZombie.h"
 
 extern "C"
 {
