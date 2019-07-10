@@ -42,20 +42,20 @@ public:
 	virtual void initializeScreenDependentResources();
 	virtual void getHighPerformanceThreadsCount() const;
 	virtual void getTotalHardwareThreadsCount() const;
-	virtual void restartApp(bool);
+	virtual void restartApp(bool);// 4
 	virtual void getAchievementsListener() const;
 	virtual void getAlternateDataUrl() const;
 	virtual void loadPNG(mce::Image&, Core::Path const&);
 	virtual void loadTGA(mce::Image&, Core::Path const&);
 	virtual void loadJPEG(mce::Image&, Core::Path const&);
-	virtual void loadTexture(Core::Path const&);
+	virtual void loadTexture(Core::Path const&);// 128
 	//virtual void loadTextureFromStream(buffer_span<unsigned char>);
 	virtual void loadTextureFromStream(std::string const&);
 	virtual void getKeyFromKeyCode(int, int, int);
 	virtual void textEditComponentGainedFocus(std::string const&, int, bool, bool, bool);
 	virtual void textEditComponentLostFocus();
-	//virtual void showKeyboard(std::string const&, int, bool, bool, bool, int, glm::tvec2<float, (glm::precision)0> const&);
-	virtual void hideKeyboard();
+	//virtual void showKeyboard(std::string const&, int, bool, bool, bool, int, glm::tvec2<float, (glm::precision)0> const&);// 6
+	virtual void hideKeyboard();// 6
 	virtual void blankLineDismissesChat() const;
 	virtual void signWrapsTextEntry() const;
 	virtual void isFullScreenKeyboard() const;
@@ -63,20 +63,20 @@ public:
 	virtual void getKeyboardHeight() const;
 	virtual void hideMousePointer();
 	virtual void showMousePointer();
-	virtual void getPointerFocus();
-	virtual void setPointerFocus(bool);
+	virtual void getPointerFocus();// 4
+	virtual void setPointerFocus(bool);// 4
 	virtual void toggleSimulateTouchWithMouse();
-	virtual void _fireLowMemory();
+	virtual void _fireLowMemory();// 34
 	virtual void _fireAppSuspended();
-	virtual void _fireAppResumed();
+	virtual void _fireAppResumed();// 44
 	virtual void _fireAppFocusLost();
 	virtual void _fireAppFocusGained();
 	virtual void _fireResizeBegin();
-	virtual void _fireResizeEnd();
+	virtual void _fireResizeEnd();// 34
 	virtual void _fireAppTerminated();
 	virtual void hasFastAlphaTest() const;
 	virtual void _fireAppConfigurationChanged();
-	virtual void _fireAppPaused();
+	virtual void _fireAppPaused();// 34
 	virtual void _fireAppUnpaused();
 	virtual void discardBackbuffer();
 	virtual void pickFile(std::shared_ptr<FilePickerSettings>);
@@ -131,14 +131,14 @@ public:
 	virtual void createUserInput();
 	virtual void getUserInputStatus();
 	virtual void getUserInput();
-	virtual void getFileAccess(ResourceFileSystem);
+	virtual void getFileAccess(ResourceFileSystem);// 16
 	virtual void copyImportFileToTempFolder(Core::Path const&);
 	virtual void registerFileForCollectionWithCrashDump(Core::Path const&);
 	virtual void getScreenWidth();
 	virtual void getScreenHeight();
-	virtual void setScreenSize(int, int);
-	virtual void setWindowSize(int, int);
-	virtual void setWindowText(std::string const&);
+	virtual void setScreenSize(int, int);// 2
+	virtual void setWindowSize(int, int);// 2
+	virtual void setWindowText(std::string const&);// 2
 	virtual void getPixelsPerMillimeter();
 	virtual void getOperationMode() const;
 	virtual void allowContentLogWriteToDisk();
@@ -147,7 +147,7 @@ public:
 	virtual void navigateToStoreForApp(ExternalApp) const;
 	virtual void launchApp(ExternalApp) const;
 	virtual void canSupportApp(ExternalApp) const;
-	virtual void startBroadcast();
+	virtual void startBroadcast();// 4
 	virtual void isContentAutoUpdateAllowed() const;
 	virtual void getMaxSimultaneousDownloads() const;
 	virtual void isDownloadAndImportBlocking() const;
@@ -158,7 +158,7 @@ public:
 	virtual void supportsVibration();
 	virtual void vibrate(int);
 	virtual void getAssetFileFullPath(Core::Path const&);
-	virtual void readAssetFile(Core::Path const&);
+	virtual void readAssetFile(Core::Path const&);// 604
 	virtual void listAssetFilesIn(Core::Path const&, std::string const&) const;
 	virtual void supportsClientUpdate() const;
 	virtual void getClientUpdateUrl() const;
@@ -175,7 +175,7 @@ public:
 	virtual void finish();
 	virtual void canLaunchUri(std::string const&);
 	virtual void launchUri(std::string const&);
-	virtual void launchSettings();
+	virtual void launchSettings();// 2
 	virtual void isRatingsPromptSupported() const;
 	virtual void launchRatingsPrompt();
 	virtual void useXboxControlHelpers() const;
@@ -183,13 +183,13 @@ public:
 	virtual void isCentennial() const;
 	virtual void getPackageFamilyName() const;
 	virtual void getBuildPlatform() const;
-	virtual void setARVRPlatform(ARVRPlatform);
+	virtual void setARVRPlatform(ARVRPlatform);// 4
 	virtual void getARVRPlatform() const;
 	virtual void getMaxActiveTessellatorChunks() const;
 	virtual void getNumberOfParticleFramesToInterpolate() const;
 	virtual void setVRControllerType(VRControllerType);
 	virtual void getVRControllerType() const;
-	virtual void hasIDEProfiler();
+	virtual void hasIDEProfiler();// 4
 	virtual void getPlatformStringVar(int);
 	virtual void getMaximumUsedMemory();
 	virtual void getMaxSimRadiusInChunks() const;
@@ -315,7 +315,7 @@ public:
 	void getPlatformBuildInformation() const;
 	void getDpi() const;
 public:
-	static AppPlatform * SETTINGS_PATH;
+	static AppPlatform * SETTINGS_PATH;// 1032
 	static AppPlatform * LOG_PATH;
 	static AppPlatform * HOME_PATH;
 	static AppPlatform * mIsInitialized;

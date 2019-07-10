@@ -11,23 +11,23 @@ class Recipe
 public:
 	//char filler_Recipe[UNKNOW_SIZE];
 public:
-	virtual ~Recipe();
-	virtual void getId() const;
-	virtual void getItemPack() const;
-	virtual void isMultiRecipe() const;
-	virtual void itemsMatch(ItemDescriptor const&, ItemDescriptor const&) const;
-	virtual void itemsMatch(ItemDescriptor const&, ItemDescriptor const&, CompoundTag const*) const;
-	virtual void itemsMatch(ItemDescriptor const&, int, int, CompoundTag const*) const;
+	virtual ~Recipe();// 376
+	virtual void getId() const;// 4
+	virtual void getItemPack() const;// 4
+	virtual void isMultiRecipe() const;// 4
+	virtual void itemsMatch(ItemDescriptor const&, ItemDescriptor const&) const;// 64
+	virtual void itemsMatch(ItemDescriptor const&, ItemDescriptor const&, CompoundTag const*) const;// 112
+	virtual void itemsMatch(ItemDescriptor const&, int, int, CompoundTag const*) const;// 326
 public:
-	Recipe(std::string, Util::HashString);
-	Recipe(Recipe&&);
-	void getPriority() const;
-	void getRecipeId() const;
-	void getTag() const;
-	void getWidth() const;
-	void getHeight() const;
-	void countQuantityOfIngredient(ItemInstance const&);
-	void isAnyAuxValue(ItemDescriptor const&);
-	void getIngredients() const;
-	void operator==(Recipe const&) const;
+	Recipe(std::string, Util::HashString);// 372,  2,  376
+	Recipe(Recipe&&);// 408
+	void getPriority() const;// 4
+	void getRecipeId() const;// 10
+	void getTag() const;// 4
+	void getWidth() const;// 4
+	void getHeight() const;// 4
+	void countQuantityOfIngredient(ItemInstance const&);// 838
+	void isAnyAuxValue(ItemDescriptor const&);// 320
+	void getIngredients() const;// 4
+	void operator==(Recipe const&) const;// 618
 };
