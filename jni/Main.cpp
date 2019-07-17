@@ -94,6 +94,7 @@
 #include "minecraft/entity/WaterAnimal/WaterAnimal.h"
 #include "minecraft/entity/AbstractArrow.h"
 #include "minecraft/entity/Goal.h"
+#include "minecraft/BinaryStream.h"
 
 extern "C"
 {
