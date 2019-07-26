@@ -95,6 +95,7 @@
 #include "minecraft/entity/AbstractArrow.h"
 #include "minecraft/entity/Goal.h"
 #include "minecraft/BinaryStream.h"
+#include "minecraft/VanillaBlocks.h"
 
 extern "C"
 {

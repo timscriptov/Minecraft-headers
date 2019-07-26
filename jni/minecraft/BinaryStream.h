@@ -18,7 +18,7 @@ public:
 	void writeVarInt(int); // 60
 	void writeUnsignedVarInt(unsigned int); // 56
 	void writeUnsignedVarInt64(unsigned long long); // 64
-	void writeString(gsl::basic_string_span<char const, -1>); // 80
+	//void writeString(gsl::basic_string_span<char const, -1>); // 80
 	void writeBool(bool); // 24
 	void writeUnsignedShort(unsigned short); // 24
 	void writeByte(unsigned char); // 24
